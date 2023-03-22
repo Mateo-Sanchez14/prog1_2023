@@ -8,7 +8,15 @@ es ... m ".
 #include <stdio.h>
 
 int main(int argc, char const *argv[]) {
-    
-    
+    float peso, altura;
+
+    printf("Ingrese el peso: ");
+    scanf("%f", &peso);
+    printf("Ingrese el altura: ");
+    scanf("%f", &altura);
+
+    printf("El peso de Carlos es %.2f Kg, mientras que su altura es %.2f m", peso, altura);
+    printf("\n");
+
     return 0;
 }
