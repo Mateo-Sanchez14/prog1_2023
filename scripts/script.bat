@@ -1,3 +1,5 @@
+@REM Create N files with the name p1.c, p2.c, ..., pN.c
+
 @echo off
 for /l %%i in (1,1,26) do (
     echo /*>> "p%%i.c"
